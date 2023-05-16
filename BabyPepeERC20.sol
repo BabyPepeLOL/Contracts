@@ -40,5 +40,5 @@ constructor() ERC20("BabyPepe", "BABYPEPE") {}
 // Function to mint new BabyPepe tokens, callable only by the contract owner
 function mint(address to, uint256 amount) public onlyOwner {
     _mint(to, amount); // Call the internal _mint function from the ERC20 contract
-}
+    }
 }
