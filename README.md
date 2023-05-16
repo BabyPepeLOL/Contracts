@@ -21,9 +21,9 @@ This is the repository for all Baby Pepe smart contracts.
 - `BabePepeFarming.sol`
 
 ## 🤖 AI-Audit
-- `Smart Contract Audit Report BabyPepeAirdrop.txt`
-- `Smart Contract Audit Report BabyPepeERC20.txt`
-- `Smart Contract Audit Report BabyPepeFarming.txt`
+- `Smart Contract Audit Report BabyPepeAirdrop.md`
+- `Smart Contract Audit Report BabyPepeERC20.md`
+- `Smart Contract Audit Report BabyPepeFarming.md`
 
 # ❗ Note: 
 No contract has been professionally audited, please DYOR. Find AI generated audit reports in the AI-Audit folder. Please check the contract code is the same as deployed contract before use. This is a very experimental project.
