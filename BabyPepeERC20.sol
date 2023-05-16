@@ -26,13 +26,19 @@
 // *********************************************(((((((((((************************
 // ***********************************************((@@/****************************
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.9;
 
+// Import necessary OpenZeppelin libraries
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract BabyPepeToken is ERC20, Ownable {
-    constructor() ERC20("Baby Pepe", "BABYPEPE") {
-        _mint(msg.sender, 69000000000000 * 1e18); // convert to wei
-    }
+// Define the BabyPepeERC20 contract, which inherits from ERC20, ERC20Burnable, and Ownable
+contract BabyPepeERC20 is ERC20, ERC20Burnable, Ownable {
+// Constructor for the BabyPepeERC20 contract
+constructor() ERC20("BabyPepe", "BABYPEPE") {}
+// Function to mint new BabyPepe tokens, callable only by the contract owner
+function mint(address to, uint256 amount) public onlyOwner {
+    _mint(to, amount); // Call the internal _mint function from the ERC20 contract
+}
 }
