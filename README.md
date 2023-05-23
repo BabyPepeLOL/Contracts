@@ -10,22 +10,14 @@ In this repository, you'll find a collection of contracts governing the Top Pepe
 
 - **Top Pepe Token Contract (`BabyPepeERC20.sol`):** This is where the magic begins. We've minted our very own Top Pepe tokens (symbol: TopP) that will make you hop with joy as you witness its mighty potential.
 
-- **Top Pepe Airdrop Contract (`BabyPepeAirdrop.sol`):** We love our community, and what better way to show our appreciation than by air-dropping tokens? This contract also takes care of our exclusive Pepe Holder NFTs. Hold onto your hats, this one's a real gem!
-
-- **Top Pepe Farm Contract (`BabePepeFarming.sol`):** We've made it super easy to stake your tokens and earn rewards in this liquidity mining contract. Stake your tokens, sit back, relax, and watch your rewards roll in!
-
 # 📚 Contracts
 This is the repository for all Baby Pepe smart contracts.
 
 ## Contents 
 - `TopPepeERC20.sol`
-- `BTopPepeAirdrop.sol`
-- `TopPepeFarming.sol`
 
 ## 🤖 AI-Audit
-- `Smart Contract Audit Report BabyPepeAirdrop.md`
-- `Smart Contract Audit Report BabyPepeERC20.md`
-- `Smart Contract Audit Report BabyPepeFarming.md`
+- `Smart Contract Audit Report BabyPepeAirdrop.pdf`
 
 # ❗ Note: 
 No contract has been professionally audited, please DYOR. Find AI generated audit reports in the AI-Audit folder. Please check the contract code is the same as deployed contract before use. This is a very experimental project.
