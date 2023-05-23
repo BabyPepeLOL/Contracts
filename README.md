@@ -2,7 +2,7 @@
 
 Welcome to the official GitHub repository for the Top Pepe project!
 
-##Escape The Matrix!
+Escape The Matrix!
 
 Top Pepe, a crypto-meme project, is revolutionizing the DeFi world with its quirky and innovative approach. We believe in the power of memes and the joy they bring, and we've channeled this spirit into our tokenomics and smart contracts. 
 
